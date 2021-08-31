@@ -61,15 +61,18 @@ body{
 @media screen and (max-width:745px){
     .menu-cont-ul{
         position: fixed;
-        width: 50%;
+        width: 40%;
         height: 100vh;
         background-color: #F5E8C7;
         top: 5rem;
-        right: -2rem;
+        right: -1rem;
         display: flex;
         flex-direction: column;
         transform: translateX(100%);
         transition: all 0s;
+    }
+    .opciones-li{
+        padding-right:3rem ;
     }
     .active{
         transform: translateX(0%);
